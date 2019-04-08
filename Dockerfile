@@ -9,7 +9,8 @@ MAINTAINER Yassine Souilmi <yassine.souilmi@adelaide.edu.au>
 RUN apt update
 RUN apt install -y \
 	bowtie2 \
-  wget
+	wget \
+	zip
   
 ## Setting up the environment
 ### Setting up the folders
